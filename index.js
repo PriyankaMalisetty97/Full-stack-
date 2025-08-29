@@ -18,11 +18,11 @@ function alternatingCaps(str) {
   return result;
 }
 
-// 👇 CHANGE THESE DETAILS TO YOURS
+
 const FULL_NAME = "mohana_priyanka"; // lowercase full name with underscore
-const DOB = "17091999"; // ddmmyyyy
-const EMAIL = "your_email@vitstudent.ac.in";
-const ROLL_NUMBER = "21MIS1234"; // replace with your roll
+const DOB = "21072004"; // ddmmyyyy
+const EMAIL = "priyanka.22bce7444@vitapstudent.ac.in";
+const ROLL_NUMBER = "22BCE7444"; // replace with your roll
 
 // ✅ New GET route for browser friendliness
 app.get("/", (req, res) => {
