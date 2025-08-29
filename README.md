@@ -29,14 +29,21 @@ It processes an array of inputs and returns structured data including numbers, a
 ---
 
 ## 📡 API Endpoint
-POST https://fullstack-bfhl.vercel.app/bfhl
+```
+
+POST https://your-app-name.vercel.app/bfhl
+````
 
 ### Example Request
 ```json
 {
   "data": ["2", "a", "y", "4", "&", "-", "*", "5", "92", "b"]
 }
-###Response
+````
+
+### Example Response
+
+```json
 {
   "is_success": true,
   "user_id": "mohana_priyanka_21072004",
@@ -49,28 +56,51 @@ POST https://fullstack-bfhl.vercel.app/bfhl
   "sum": "103",
   "concat_string": "ByA"
 }
+```
 
 ---
-###Project structure
+
+## 📂 Project Structure
+
+```
 fullstack-bfhl/
  ├── index.js        # Express API logic
  ├── package.json    # Dependencies
  └── vercel.json     # Vercel deployment config
+```
 
 ---
 
-🏃 How to Run Locally
+## 🏃 How to Run Locally
 
-Clone the repository
-git clone https://github.com/your-username/fullstack-bfhl.git
-cd fullstack-bfhl
-Install dependencies---npm install
-Run the server---node index.js
-Test with Postman at ---http://localhost:3000/bfhl
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/your-username/fullstack-bfhl.git
+   cd fullstack-bfhl
+   ```
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+3. Run the server
+
+   ```bash
+   node index.js
+   ```
+4. Test with Postman at
+
+   ```
+   http://localhost:3000/bfhl
+   ```
 
 ---
 
-👩‍💻 Author
-Name: Mohana Priyanka
-Roll Number: 22BCE7444
-Email: priyanka.22bce7444@vitapstudent.ac.in
+## 👩‍💻 Author
+
+* **Name**: Mohana Priyanka
+* **Roll Number**: 22BCE7444
+* **Email**: [priyanka.22bce7444@vitapstudent.ac.in](mailto:priyanka.22bce7444@vitapstudent.ac.in)
+
+```
