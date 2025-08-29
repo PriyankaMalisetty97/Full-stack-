@@ -24,6 +24,11 @@ const DOB = "17091999"; // ddmmyyyy
 const EMAIL = "your_email@vitstudent.ac.in";
 const ROLL_NUMBER = "21MIS1234"; // replace with your roll
 
+// ✅ New GET route for browser friendliness
+app.get("/", (req, res) => {
+  res.send("✅ Welcome to the BFHL API! Use POST /bfhl with JSON body to test.");
+});
+
 app.post("/bfhl", (req, res) => {
   try {
     const data = req.body.data || [];
